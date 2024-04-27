@@ -1,5 +1,4 @@
-import 'package:box_prop_change/home.dart';
-import 'package:box_prop_change/setting.dart';
+import 'package:box_prop_change/preview_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,9 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(
-        
-      ),
+      home: PreviewPage(),
     );
   }
 }
