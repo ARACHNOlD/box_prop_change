@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
               width: 5,
               color: Colors.grey,
             ),
-            color: widget.boxColor ?? Colors.amber,
+            color: widget.boxColor ,
           ),
           child: Center(
             child: Text(

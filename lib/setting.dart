@@ -1,4 +1,3 @@
-import 'package:box_prop_change/box_Component.dart';
 import 'package:box_prop_change/home.dart';
 
 import 'package:flutter/material.dart';
@@ -231,7 +230,7 @@ class _SettingState extends State<Setting> {
                             Home(
                               boxColor: _BoxColor,
                               txtColor: _selectedColor,
-                              textToShow: textCntrl.text,
+                              textToShow: textCntrl.toString(),
                               fontSize: fontsize,
                             )
                           },
